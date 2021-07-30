@@ -21,7 +21,7 @@ typedef void(^ijfKVOCallback)(id _Nonnull observer, NSString * _Nonnull keyPath,
              forKeyPath:(NSString *)keyPath
                callback:(ijfKVOCallback)callback;
 
-/// 主动移除观察keyPath的观察者
+/// 主动移除观察keyPath的观察者，一般无需调用，内部会自动移除观察者
 /// @param observer 观察者
 /// @param keyPath 观察属性，当传入位nil时，讲移除所有的observer
 - (void)ijf_removeObserver:(id)observer

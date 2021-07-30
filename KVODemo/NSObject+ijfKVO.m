@@ -83,9 +83,6 @@ static const void *ijf_kvo_sign_key = &ijf_kvo_sign_key;
     if (newCls == nil) {
         // 没有这个类，需要新建
         newCls = objc_allocateClassPair(cls, newClassName.UTF8String, 0);
-        if (!newCls) {
-            @throw [NSException exceptionWithName:@"IJFCustomException" reason:@"the desired name is already in use" userInfo:nil];
-        }
         objc_registerClassPair(newCls);
         
         // 重写 -class
@@ -383,6 +380,10 @@ static void ijf_setter_invoke(id receiver, SEL setSEL, ...) {
     // 释放已经释放的观察者对象，这种情况出现在被观察者没释放，观察者释放了
     if (releaseObservers.count > 0) {
         [observers removeObjectsInArray:releaseObservers];
+    }
+    
+    if (observers.count == 0) {
+        rebindClass(receiver);
     }
 }
 
