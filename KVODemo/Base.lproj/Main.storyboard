@@ -32,6 +32,14 @@
                                     <segue destination="HWu-jn-I3j" kind="show" id="2oP-KK-hmC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Qt-ok-tQk">
+                                <rect key="frame" x="170" y="525" width="74" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="demo KVO"/>
+                                <connections>
+                                    <segue destination="KLL-PE-Fqm" kind="show" id="jF3-g3-aQ9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -91,6 +99,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rKE-Dp-SRN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
+        </scene>
+        <!--Demo KVO-->
+        <scene sceneID="IEq-gw-QoS">
+            <objects>
+                <viewController id="KLL-PE-Fqm" customClass="DemoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BVs-bc-Tqr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="BtV-PH-E0F"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Demo KVO" id="Hno-Vh-Lvg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Por-h9-Zxg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2536" y="73"/>
         </scene>
     </scenes>
     <resources>

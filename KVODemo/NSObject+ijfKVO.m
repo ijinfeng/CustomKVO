@@ -10,8 +10,8 @@
 #import <objc/runtime.h>
 #import <objc/message.h>
 
-const void *ijf_kvo_bind_key = &ijf_kvo_bind_key;
-const void *ijf_kvo_sign_key = &ijf_kvo_sign_key;
+static const void *ijf_kvo_bind_key = &ijf_kvo_bind_key;
+static const void *ijf_kvo_sign_key = &ijf_kvo_sign_key;
 
 @interface IjfObserver : NSObject
 

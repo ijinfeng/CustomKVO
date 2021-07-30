@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780C1BC226B29A5E00EF429B /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780C1BC126B29A5E00EF429B /* DemoViewController.m */; };
+		780C1BC626B29A6C00EF429B /* NSObject+demoKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 780C1BC526B29A6C00EF429B /* NSObject+demoKVO.m */; };
 		787411CC26B1054F00E14ED7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 787411CB26B1054F00E14ED7 /* AppDelegate.m */; };
 		787411CF26B1054F00E14ED7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 787411CE26B1054F00E14ED7 /* SceneDelegate.m */; };
 		787411D226B1054F00E14ED7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787411D126B1054F00E14ED7 /* ViewController.m */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		780C1BC026B29A5E00EF429B /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		780C1BC126B29A5E00EF429B /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		780C1BC426B29A6C00EF429B /* NSObject+demoKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+demoKVO.h"; sourceTree = "<group>"; };
+		780C1BC526B29A6C00EF429B /* NSObject+demoKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+demoKVO.m"; sourceTree = "<group>"; };
 		787411C726B1054F00E14ED7 /* KVODemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVODemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787411CA26B1054F00E14ED7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		787411CB26B1054F00E14ED7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,6 +92,10 @@
 				787411E926B1058D00E14ED7 /* SysKVOViewController.m */,
 				787411EC26B1059500E14ED7 /* CustomKVOViewController.h */,
 				787411ED26B1059500E14ED7 /* CustomKVOViewController.m */,
+				780C1BC026B29A5E00EF429B /* DemoViewController.h */,
+				780C1BC126B29A5E00EF429B /* DemoViewController.m */,
+				780C1BC426B29A6C00EF429B /* NSObject+demoKVO.h */,
+				780C1BC526B29A6C00EF429B /* NSObject+demoKVO.m */,
 				787411D026B1054F00E14ED7 /* ViewController.h */,
 				787411D126B1054F00E14ED7 /* ViewController.m */,
 				787411F026B1064700E14ED7 /* Person.h */,
@@ -171,8 +181,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				787411D226B1054F00E14ED7 /* ViewController.m in Sources */,
+				780C1BC626B29A6C00EF429B /* NSObject+demoKVO.m in Sources */,
 				787411E626B1056900E14ED7 /* NSObject+ijfKVO.m in Sources */,
 				787411F226B1064700E14ED7 /* Person.m in Sources */,
+				780C1BC226B29A5E00EF429B /* DemoViewController.m in Sources */,
 				787411CC26B1054F00E14ED7 /* AppDelegate.m in Sources */,
 				787411F626B1096100E14ED7 /* PersonManager.m in Sources */,
 				787411DD26B1055000E14ED7 /* main.m in Sources */,
